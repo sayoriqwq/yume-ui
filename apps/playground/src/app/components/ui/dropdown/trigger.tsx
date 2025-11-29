@@ -10,7 +10,7 @@ export interface DropdownTriggerProps extends HTMLAttributes<HTMLElement> {
   asChild?: boolean
 }
 
-export function DropdownTrigger({ children, className, asChild, ...rest }: DropdownTriggerProps) {
+export function DropdownTrigger({ children, className, asChild = true, ...rest }: DropdownTriggerProps) {
   const { mode } = useDropdownContext()
   return (
     <PopoverTrigger
