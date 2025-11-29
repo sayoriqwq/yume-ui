@@ -147,11 +147,12 @@ export default function Home() {
           <div className="space-y-4 rounded-lg border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-zinc-900">
             <div className="flex items-center gap-4">
               <span className="w-24 text-sm text-zinc-500">相对时间:</span>
-              <RelativeTime date={new Date()} className="text-black dark:text-zinc-50" />
+              {/* 需要固定为string，否则会水合报错 */}
+              <RelativeTime date={new Date().toISOString()} className="text-black dark:text-zinc-50" />
             </div>
             <div className="flex items-center gap-4">
               <span className="w-24 text-sm text-zinc-500">标准时间:</span>
-              <NormalTime date={new Date()} className="text-black dark:text-zinc-50" />
+              <NormalTime date={new Date().toISOString()} className="text-black dark:text-zinc-50" />
             </div>
             <div className="flex items-center gap-4">
               <span className="w-24 text-sm text-zinc-500">过去时间:</span>
