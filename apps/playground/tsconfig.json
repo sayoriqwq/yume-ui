@@ -4,10 +4,15 @@
     "target": "ES2017",
     "jsx": "react-jsx",
     "lib": ["dom", "dom.iterable", "esnext"],
+    "baseUrl": ".",
     "module": "esnext",
     "moduleResolution": "bundler",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@yume-ui/primitives": ["../../packages/primitives/src"],
+      "@yume-ui/primitives/*": ["../../packages/primitives/src/*"],
+      "@yume-ui/ui": ["../../packages/ui/src"],
+      "@yume-ui/ui/*": ["../../packages/ui/src/*"]
     },
     "resolveJsonModule": true,
     "allowJs": true,
