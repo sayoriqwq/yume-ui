@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@source "../../../../packages/primitives/src/**/*.{ts,tsx}";
 @plugin '@egoist/tailwindcss-icons';
 @plugin 'tailwindcss-animate';
 @import '@pastel-palette/tailwindcss/dist/theme-oklch.css';
