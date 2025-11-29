@@ -1,7 +1,7 @@
 'use client'
 
-import type { ReactNode } from 'react'
 import type { PopoverContextType } from '@yume-ui/primitives'
+import type { ReactNode } from 'react'
 import { createComponentContext, usePopoverContext } from '@yume-ui/primitives'
 
 const [DropdownContextProvider, useDropdownContextBase] = createComponentContext<PopoverContextType>({

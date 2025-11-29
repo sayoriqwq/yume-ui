@@ -15,9 +15,9 @@ export const Dropdown = {
   SubTrigger: DropdownSubTrigger,
 }
 
-export { DropdownRoot, DropdownTrigger, DropdownContent, DropdownItem, DropdownSubRoot, DropdownSubTrigger }
+export { DropdownContent, DropdownItem, DropdownRoot, DropdownSubRoot, DropdownSubTrigger, DropdownTrigger }
+export type { DropdownContentProps } from './content'
 export { useDropdownContext } from './context'
+export type { DropdownItemProps } from './item'
 export type { DropdownRootProps } from './root'
 export type { DropdownTriggerProps } from './trigger'
-export type { DropdownContentProps } from './content'
-export type { DropdownItemProps } from './item'

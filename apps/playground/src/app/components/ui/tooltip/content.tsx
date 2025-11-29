@@ -1,8 +1,8 @@
 'use client'
 
-import type { ReactNode } from 'react'
 import type { Offset, PhysicalPlacement } from '@yume-ui/primitives'
-import { PopoverContent, cn } from '@yume-ui/primitives'
+import type { ReactNode } from 'react'
+import { cn, PopoverContent } from '@yume-ui/primitives'
 
 export interface TooltipContentProps {
   children: ReactNode

@@ -1,8 +1,8 @@
 'use client'
 
+import { cn } from '@yume-ui/primitives'
 import dayjs from 'dayjs'
 import relativeTime from 'dayjs/plugin/relativeTime'
-import { cn } from '@yume-ui/primitives'
 import 'dayjs/locale/zh-cn'
 
 dayjs.extend(relativeTime)

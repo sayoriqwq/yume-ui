@@ -8,8 +8,8 @@ export const Tooltip = {
   Trigger: TooltipTrigger,
 }
 
-export { TooltipRoot, TooltipContent, TooltipTrigger }
+export { TooltipContent, TooltipRoot, TooltipTrigger }
+export type { TooltipContentProps } from './content'
 export { useTooltipContext } from './context'
 export type { TooltipRootProps } from './root'
 export type { TooltipTriggerProps } from './trigger'
-export type { TooltipContentProps } from './content'

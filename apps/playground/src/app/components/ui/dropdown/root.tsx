@@ -1,7 +1,7 @@
 'use client'
 
 import type { ReactNode } from 'react'
-import { PopoverRoot, cn } from '@yume-ui/primitives'
+import { cn, PopoverRoot } from '@yume-ui/primitives'
 import { DropdownProvider } from './context'
 
 export interface DropdownRootProps {

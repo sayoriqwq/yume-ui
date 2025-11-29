@@ -1,8 +1,8 @@
 'use client'
 
-import type { CSSProperties, ReactNode } from 'react'
 import type { Offset, PhysicalPlacement } from '@yume-ui/primitives'
-import { PopoverContent, cn } from '@yume-ui/primitives'
+import type { CSSProperties, ReactNode } from 'react'
+import { cn, PopoverContent } from '@yume-ui/primitives'
 import { useDropdownContext } from './context'
 
 export interface DropdownContentProps {
